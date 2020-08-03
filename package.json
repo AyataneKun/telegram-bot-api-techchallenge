@@ -1,0 +1,30 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "Chat bot utilizando as APIs do Telegram.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx babel-node src"
+  },
+  "keywords": [
+    "Chat",
+    "Bot",
+    "Telegram",
+    "Node",
+    "API"
+  ],
+  "author": "Aluísio Meloni Virgílio",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/dialogflow": "^3.2.0",
+    "mongoose": "^5.9.27",
+    "node-telegram-bot-api": "^0.50.0"
+  },
+  "devDependencies": {
+    "@types/dialogflow": "^4.0.4",
+    "@babel/core": "^7.11.0",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0"
+  }
+}

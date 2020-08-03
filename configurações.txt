@@ -1,0 +1,15 @@
+Para obter seu arquivo de configuração do DialogFlow:
+1- acesse: https://dialogflow.cloud.google.com/;
+2- faça o login com uma conta google;
+3- Opcional: Leia sobre os termos de serviço do Google;
+4- Crie um novo agente;
+5- Na criação do novo agente, selecione a lingua a ser tratada e crie um novo projeto;
+6- Com o agente criado, clique na engrenagem para acessar as configurações do agente;
+7- Na página geral, clique no link do service accout. Se ele não existir, clique no botão atualizar no final da caixa;
+8- Na nova página aberta, clique no E-mail correspondente a service account;
+9- Vá até a parte de chaves, e clique em adicionar nova chave, do tipo JSON;
+10- O site irá gerar um pop-up com o download da chave gerada, salve o arquivo na pasta do projeto;
+11- Copie o conteúdo do arquivo baixado para o arquivo "configs-dialogflow.json" ou preencha os campos do arquivo manualmente.
+
+Para um tutorial de criação do bot no Telegram e obtenção do Token necessário, além outras informações sobre como os bots criados no Telegram funcionam, acesse:
+https://core.telegram.org/bots
