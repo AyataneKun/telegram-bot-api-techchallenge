@@ -17,14 +17,14 @@
   "author": "Aluísio Meloni Virgílio",
   "license": "ISC",
   "dependencies": {
-    "@google-cloud/dialogflow": "^3.2.0",
-    "mongoose": "^5.9.27",
-    "node-telegram-bot-api": "^0.50.0"
+    "@google-cloud/dialogflow": "^3.3.0",
+    "mongoose": "^5.11.14",
+    "node-telegram-bot-api": "^0.51.0"
   },
   "devDependencies": {
     "@types/dialogflow": "^4.0.4",
-    "@babel/core": "^7.11.0",
-    "@babel/node": "^7.10.5",
-    "@babel/preset-env": "^7.11.0"
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11"
   }
 }
